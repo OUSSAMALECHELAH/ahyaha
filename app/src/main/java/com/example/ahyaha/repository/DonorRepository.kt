@@ -4,7 +4,7 @@ import com.example.ahyaha.model.Donor
 import java.util.Date
 
 object DonorRepository {
-    
+
     fun getAllDonors(): List<Donor> {
         // Simulating fetching data from a data source
         return listOf(

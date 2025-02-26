@@ -1,7 +1,8 @@
 package com.example.ahyaha.model
 
 data class BloodType(
-    val id: String,
-    val bloodGroup: String,
+    val name: String,
+    val iconUrl: String,
     val Rh: String
 )
+

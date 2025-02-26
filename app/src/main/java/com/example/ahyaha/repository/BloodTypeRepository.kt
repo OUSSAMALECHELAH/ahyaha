@@ -3,18 +3,16 @@ package com.example.ahyaha.repository
 import com.example.ahyaha.model.BloodType
 
 object BloodTypeRepository {
-    // TODO: Add methods to manage blood type data operations
     fun getAllBloodTypes(): List<BloodType> {
-        // Simulating fetching data from a data source
         return listOf(
-            BloodType("1", "A", "+"),
-            BloodType("2", "B", "+"),
-            BloodType("3", "AB", "+"),
-            BloodType("4", "O", "+"),
-            BloodType("5", "A", "-"),
-            BloodType("6", "B", "-"),
-            BloodType("7", "AB", "-"),
-            BloodType("8", "O", "-")
+            BloodType("A+", "https://example.com/icons/blood_a_plus.png", "Positive"),
+            BloodType("A-", "https://example.com/icons/blood_a_minus.png", "Negative"),
+            BloodType("B+", "https://example.com/icons/blood_b_plus.png", "Positive"),
+            BloodType("B-", "https://example.com/icons/blood_b_minus.png", "Negative"),
+            BloodType("O+", "https://example.com/icons/blood_o_plus.png", "Positive"),
+            BloodType("O-", "https://example.com/icons/blood_o_minus.png", "Negative"),
+            BloodType("AB+", "https://example.com/icons/blood_ab_plus.png", "Positive"),
+            BloodType("AB-", "https://example.com/icons/blood_ab_minus.png", "Negative")
         )
     }
 }
